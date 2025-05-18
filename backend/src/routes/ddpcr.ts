@@ -3,15 +3,16 @@ import { FastifyPluginAsync } from 'fastify'
 import fp from 'fastify-plugin'
 import csv from 'csv-parser'
 import prisma from '../lib/prisma'
+import fastifyMultipart, { MultipartFile } from '@fastify/multipart'
 
 const POTENCY_LIMIT = 100    // copies/µl
 
 const ddpcrRoute: FastifyPluginAsync = async (app) => {
-  app.register(require('@fastify/multipart'))
+  await app.register(fastifyMultipart)
 
   app.post('/upload/ddpcr', async function (req, reply) {
     // expecting multipart/form-data with field "file"
-    const data = await (req as any).file()
+    const data = await req.file()
     if (!data) return reply.code(400).send({ error: 'file missing' })
 
     const rows: any[] = []
@@ -38,25 +39,46 @@ const ddpcrRoute: FastifyPluginAsync = async (app) => {
       const positives = parseInt(r.Positives, 10)
       const negatives = parseInt(r.Negatives, 10)
       const total = positives + negatives
-      const lambda = -Math.log(1 - positives / total)
-      const copies = lambda / 0.000758               // 0.758 nL per droplet
+      
+      // Handle division by zero and avoid Infinity
+      let copiesPerUl = 0;
+      if (total > 0 && negatives > 0) {
+        const lambda = -Math.log(1 - positives / total)
+        copiesPerUl = lambda / 0.000758  // 0.758 nL per droplet
+      } else if (total > 0 && negatives === 0) {
+        // If all droplets are positive, use a very high but finite value
+        copiesPerUl = 1000000  // A million copies/µl as an arbitrary high value
+      }
+      
+      console.log(`Processing row: Sample=${r.Sample}, Target=${r.Target}, Positives=${positives}, Negatives=${negatives}, Total=${total}, CopiesPerUl=${copiesPerUl}`)
 
-      await prisma.ddpcrRun.create({
+      // Validate sample type against known values in SampleType enum
+      let sampleType = r.Sample_Type?.toUpperCase();
+      if (sampleType !== 'SYNTHETIC' && sampleType !== 'PATIENT' && sampleType !== 'QC_CTRL') {
+        console.log(`Warning: Unknown sample type "${sampleType}", defaulting to "SYNTHETIC"`);
+        sampleType = 'SYNTHETIC';
+      }
+
+      await prisma.dDPCRRun.create({
         data: {
-          batchId: batch.id,
           sampleLabel: r.Sample,
           target: r.Target,
           kit: r.Kit,
-          sampleType: r.Sample_Type?.toUpperCase(),   // assumes enum
+          sampleType: sampleType,   // Using our validated sample type
           templateUsed: r.Template === '+',
           enzymeAdded: r.Enzyme === '+',
           spikeIn: r['Spike-In'],
           positives,
           negatives,
           totalDroplets: total,
-          copiesPerUl: copies,
-          pass: copies >= POTENCY_LIMIT,
+          copiesPerUl: copiesPerUl,  // Using our safely calculated value
+          pass: copiesPerUl >= POTENCY_LIMIT,
           runAt: new Date(r.Date),
+          batch: {
+            connect: {
+              id: batch.id
+            }
+          }
         },
       })
     }

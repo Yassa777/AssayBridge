@@ -1,0 +1,948 @@
+Date,Sample,Target,Positives,Negatives,Kit,Sample_Type,Template,Enzyme,Spike-In
+8/23/16,0 cDNA,cel-miR-238,6,10262,Kit C,Synthetic,-,+,N/A
+8/23/16,0 RNA,cel-miR-238,15,16064,Kit C,Synthetic,-,+,N/A
+8/23/16,No RTase,cel-miR-238,303,16324,Kit C,Synthetic,+,-,N/A
+8/23/16,10^-1 cDNA,cel-miR-238,14931,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-1 cDNA,cel-miR-238,14684,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,cel-miR-238,14590,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,cel-miR-238,15024,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,cel-miR-238,14640,497,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,cel-miR-238,14691,370,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,cel-miR-238,571,15245,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,cel-miR-238,580,15496,Kit C,Synthetic,+,+,N/A
+8/23/16,0 cDNA,cel-miR-39,0,13688,Kit C,Synthetic,-,+,N/A
+8/23/16,0 RNA,cel-miR-39,1,13720,Kit C,Synthetic,-,+,N/A
+8/23/16,No RTase,cel-miR-39,222,15650,Kit C,Synthetic,+,-,N/A
+8/23/16,10^-1 cDNA,cel-miR-39,15015,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-1 cDNA,cel-miR-39,14896,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,cel-miR-39,14995,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,cel-miR-39,15585,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,cel-miR-39,14481,1051,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,cel-miR-39,14778,1095,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,cel-miR-39,385,15483,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,cel-miR-39,417,15767,Kit C,Synthetic,+,+,N/A
+8/23/16,0 cDNA,hsa-miR-155,0,15027,Kit C,Synthetic,-,+,N/A
+8/23/16,0 RNA,hsa-miR-155,7,15671,Kit C,Synthetic,-,+,N/A
+8/23/16,No RTase,hsa-miR-155,1076,14086,Kit C,Synthetic,+,-,N/A
+8/23/16,10^-1 cDNA,hsa-miR-155,15929,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-1 cDNA,hsa-miR-155,15589,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,hsa-miR-155,15590,1,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,hsa-miR-155,15748,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,hsa-miR-155,3720,12057,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,hsa-miR-155,3413,12368,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,hsa-miR-155,34,16144,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,hsa-miR-155,34,15692,Kit C,Synthetic,+,+,N/A
+8/23/16,0 cDNA,hsa-miR-223,1,14803,Kit C,Synthetic,-,+,N/A
+8/23/16,0 RNA,hsa-miR-223,0,8828,Kit C,Synthetic,-,+,N/A
+8/23/16,No RTase,hsa-miR-223,162,15992,Kit C,Synthetic,+,-,N/A
+8/23/16,10^-1 cDNA,hsa-miR-223,14631,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-1 cDNA,hsa-miR-223,15380,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,hsa-miR-223,15880,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-3 cDNA,hsa-miR-223,15487,0,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,hsa-miR-223,15154,778,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-5 cDNA,hsa-miR-223,14581,719,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,hsa-miR-223,469,15507,Kit C,Synthetic,+,+,N/A
+8/23/16,10^-7 cDNA,hsa-miR-223,448,15412,Kit C,Synthetic,+,+,N/A
+9/6/16,0 RNA,cel-miR-238,1,15852,Kit B,Synthetic,-,+,N/A
+9/6/16,0 RNA,cel-miR-238,1,16101,Kit B,Synthetic,-,+,N/A
+9/6/16,No RTase,cel-miR-238,2,16357,Kit B,Synthetic,+,-,N/A
+9/6/16,No RTase,cel-miR-238,2,15620,Kit B,Synthetic,+,-,N/A
+9/6/16,10^-2 cDNA,cel-miR-238,15230,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-2 cDNA,cel-miR-238,15072,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,cel-miR-238,16163,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,cel-miR-238,16803,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,cel-miR-238,4936,10199,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,cel-miR-238,4719,10276,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,cel-miR-238,53,16054,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,cel-miR-238,38,15820,Kit B,Synthetic,+,+,N/A
+9/6/16,0 RNA,cel-miR-39,1,15919,Kit B,Synthetic,-,+,N/A
+9/6/16,0 RNA,cel-miR-39,0,16346,Kit B,Synthetic,-,+,N/A
+9/6/16,0 RNA,cel-miR-39,3,16176,Kit B,Synthetic,-,+,N/A
+9/6/16,No RTase,cel-miR-39,0,15959,Kit B,Synthetic,+,-,N/A
+9/6/16,No RTase,cel-miR-39,2,16019,Kit B,Synthetic,+,-,N/A
+9/6/16,No RTase,cel-miR-39,0,16927,Kit B,Synthetic,+,-,N/A
+9/6/16,10^-2 cDNA,cel-miR-39,15534,1,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-2 cDNA,cel-miR-39,15526,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,cel-miR-39,17081,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,cel-miR-39,16287,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,cel-miR-39,1705,5878,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,cel-miR-39,4204,11679,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,cel-miR-39,49,15580,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,cel-miR-39,38,15645,Kit B,Synthetic,+,+,N/A
+9/6/16,0 RNA,hsa-miR-155,0,16446,Kit B,Synthetic,-,+,N/A
+9/6/16,0 RNA,hsa-miR-155,1,16398,Kit B,Synthetic,-,+,N/A
+9/6/16,No RTase,hsa-miR-155,0,17114,Kit B,Synthetic,+,-,N/A
+9/6/16,No RTase,hsa-miR-155,3,17006,Kit B,Synthetic,+,-,N/A
+9/6/16,10^-2 cDNA,hsa-miR-155,16172,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-2 cDNA,hsa-miR-155,16270,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,hsa-miR-155,16829,70,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,hsa-miR-155,17060,113,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,hsa-miR-155,585,16295,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,hsa-miR-155,674,16470,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,hsa-miR-155,7,15949,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,hsa-miR-155,10,16019,Kit B,Synthetic,+,+,N/A
+9/6/16,0 RNA,hsa-miR-223,2,14774,Kit B,Synthetic,-,+,N/A
+9/6/16,No RTase,hsa-miR-223,4,17148,Kit B,Synthetic,+,-,N/A
+9/6/16,10^-2 cDNA,hsa-miR-223,16363,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-2 cDNA,hsa-miR-223,17227,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,hsa-miR-223,16924,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-4 cDNA,hsa-miR-223,15805,0,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,hsa-miR-223,5827,11455,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-6 cDNA,hsa-miR-223,5481,11411,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,hsa-miR-223,68,15299,Kit B,Synthetic,+,+,N/A
+9/6/16,10^-8 cDNA,hsa-miR-223,42,16070,Kit B,Synthetic,+,+,N/A
+9/8/16,0 RNA,cel-miR-238,1,15284,Kit B,Synthetic,-,+,N/A
+9/8/16,0 RNA,cel-miR-238,1,15214,Kit B,Synthetic,-,+,N/A
+9/8/16,No RTase,cel-miR-238,1,15716,Kit B,Synthetic,+,-,N/A
+9/8/16,No RTase,cel-miR-238,0,10707,Kit B,Synthetic,+,-,N/A
+9/8/16,1*10^-5 cDNA,cel-miR-238,14445,0,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-5 cDNA,cel-miR-238,15263,0,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,cel-miR-238,5284,10137,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,cel-miR-238,5360,10316,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,cel-miR-238,14948,1349,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,cel-miR-238,14210,1358,Kit B,Synthetic,+,+,N/A
+9/8/16,0 RNA,cel-miR-39,2,15884,Kit B,Synthetic,-,+,N/A
+9/8/16,0 RNA,cel-miR-39,2,13788,Kit B,Synthetic,-,+,N/A
+9/8/16,No RTase,cel-miR-39,4,15724,Kit B,Synthetic,+,-,N/A
+9/8/16,No RTase,cel-miR-39,0,16325,Kit B,Synthetic,+,-,N/A
+9/8/16,1*10^-5 cDNA,cel-miR-39,15118,73,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-5 cDNA,cel-miR-39,15708,68,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,cel-miR-39,5097,11292,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,cel-miR-39,5240,11570,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,cel-miR-39,14367,1798,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,cel-miR-39,14442,1890,Kit B,Synthetic,+,+,N/A
+9/8/16,0 RNA,hsa-miR-155,2,16828,Kit B,Synthetic,-,+,N/A
+9/8/16,0 RNA,hsa-miR-155,0,17218,Kit B,Synthetic,-,+,N/A
+9/8/16,No RTase,hsa-miR-155,1,16295,Kit B,Synthetic,+,-,N/A
+9/8/16,No RTase,hsa-miR-155,0,16964,Kit B,Synthetic,+,-,N/A
+9/8/16,1*10^-5 cDNA,hsa-miR-155,7604,9404,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-5 cDNA,hsa-miR-155,7372,9977,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,hsa-miR-155,755,16954,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,hsa-miR-155,686,16847,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,hsa-miR-155,3851,13553,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,hsa-miR-155,3780,13985,Kit B,Synthetic,+,+,N/A
+9/8/16,0 RNA,hsa-miR-223,0,17265,Kit B,Synthetic,-,+,N/A
+9/8/16,0 RNA,hsa-miR-223,0,17530,Kit B,Synthetic,-,+,N/A
+9/8/16,No RTase,hsa-miR-223,4,17272,Kit B,Synthetic,+,-,N/A
+9/8/16,No RTase,hsa-miR-223,8,17892,Kit B,Synthetic,+,-,N/A
+9/8/16,1*10^-5 cDNA,hsa-miR-223,17526,15,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-5 cDNA,hsa-miR-223,17378,34,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,hsa-miR-223,6382,11062,Kit B,Synthetic,+,+,N/A
+9/8/16,1*10^-6 cDNA,hsa-miR-223,6273,11286,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,hsa-miR-223,15831,1236,Kit B,Synthetic,+,+,N/A
+9/8/16,5*10^-5 cDNA,hsa-miR-223,16305,1358,Kit B,Synthetic,+,+,N/A
+9/13/16,10^-6 No RNA,cel-miR-238,8,16827,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RNA,cel-miR-238,3,17112,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RTase,cel-miR-238,4,18361,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 No RTase,cel-miR-238,16,16383,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 cDNA,cel-miR-238,4104,6595,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 cDNA,cel-miR-238,5732,8306,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,cel-miR-238,851,16853,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,cel-miR-238,376,8331,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,cel-miR-238,92,17863,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,cel-miR-238,80,15666,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 No RNA,cel-miR-39,1,17326,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RNA,cel-miR-39,6,18204,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RTase,cel-miR-39,2,18567,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 No RTase,cel-miR-39,1,18437,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 cDNA,cel-miR-39,3777,9602,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 cDNA,cel-miR-39,4202,10423,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,cel-miR-39,311,16066,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,cel-miR-39,253,16896,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,cel-miR-39,60,18507,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,cel-miR-39,45,15670,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 No RNA,hsa-miR-155,1,16535,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RNA,hsa-miR-155,0,17929,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RTase,hsa-miR-155,1,19354,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 No RTase,hsa-miR-155,0,17988,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 cDNA,hsa-miR-155,1082,16263,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 cDNA,hsa-miR-155,1072,14973,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,hsa-miR-155,117,16806,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,hsa-miR-155,108,15712,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,hsa-miR-155,10,17211,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,hsa-miR-155,1,18769,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 No RNA,hsa-miR-223,0,16271,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RNA,hsa-miR-223,0,18348,Kit D,Synthetic,-,-RN+,N/A
+9/13/16,10^-6 No RTase,hsa-miR-223,0,17357,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 No RTase,hsa-miR-223,0,18137,Kit D,Synthetic,+,-,N/A
+9/13/16,10^-6 cDNA,hsa-miR-223,7349,5679,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-6 cDNA,hsa-miR-223,7873,6301,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,hsa-miR-223,1452,14945,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-7 cDNA,hsa-miR-223,1188,14202,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,hsa-miR-223,134,18793,Kit D,Synthetic,+,+,N/A
+9/13/16,10^-8 cDNA,hsa-miR-223,128,16514,Kit D,Synthetic,+,+,N/A
+9/26/17,Kit A_A,cel-miR-238,14529,1416,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,cel-miR-238,7593,847,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,cel-miR-39,8710,7142,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,cel-miR-39,8708,7191,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,hsa-miR-155,3817,12040,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,hsa-miR-155,4004,12309,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,hsa-miR-223,15753,826,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_A,hsa-miR-223,15412,762,Kit A,Synthetic,+,+,N/A
+9/26/17,Kit A_B,cel-miR-238,7,16351,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,cel-miR-238,0,16687,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,cel-miR-39,7,16168,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,cel-miR-39,0,16258,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,hsa-miR-155,0,16714,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,hsa-miR-155,0,16964,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,hsa-miR-223,3,16778,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_B,hsa-miR-223,2,16784,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,cel-miR-238,5,14651,Kit A,Synthetic,-,+,N/A
+9/26/17,Kit A_C,cel-miR-238,3,14749,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,cel-miR-39,3,15048,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,cel-miR-39,0,15559,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,hsa-miR-155,0,15494,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,hsa-miR-155,1,16342,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,hsa-miR-223,1,15742,Kit A,Synthetic,+,-,N/A
+9/26/17,Kit A_C,hsa-miR-223,1,15299,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_C,cel-miR-238,0,14586,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_C,cel-miR-238,1,14469,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_B,cel-miR-238,1,15260,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_B,cel-miR-238,0,15683,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_A,cel-miR-238,12517,3093,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_A,cel-miR-238,11989,3145,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_C,cel-miR-39,0,14223,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_C,cel-miR-39,0,14686,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_B,cel-miR-39,2,15443,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_B,cel-miR-39,1,15843,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_A,cel-miR-39,5577,9639,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_A,cel-miR-39,5840,9524,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_C,hsa-miR-155,0,14829,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_C,hsa-miR-155,0,15483,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_B,hsa-miR-155,0,15497,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_B,hsa-miR-155,1,15614,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_A,hsa-miR-155,2292,12908,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_A,hsa-miR-155,3900,4730,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_C,hsa-miR-223,0,15294,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_C,hsa-miR-223,0,15030,Kit A,Synthetic,-,+,N/A
+9/27/16,Kit A_B,hsa-miR-223,1,16104,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_B,hsa-miR-223,0,15440,Kit A,Synthetic,+,-,N/A
+9/27/16,Kit A_A,hsa-miR-223,12497,2544,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit A_A,hsa-miR-223,12513,2597,Kit A,Synthetic,+,+,N/A
+9/27/16,Kit B_C,cel-miR-238,1,15679,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_C,cel-miR-238,3,15854,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_B,cel-miR-238,1,15554,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_B,cel-miR-238,0,15876,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_A,cel-miR-238,13061,2459,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_A,cel-miR-238,13058,2381,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_C,cel-miR-39,2,15113,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_C,cel-miR-39,1,15309,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_B,cel-miR-39,9,15369,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_B,cel-miR-39,2,15434,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_A,cel-miR-39,12004,2772,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_A,cel-miR-39,12492,2801,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_C,hsa-miR-155,4,21486,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_C,hsa-miR-155,0,16161,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_B,hsa-miR-155,1,14738,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_B,hsa-miR-155,1,15786,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_A,hsa-miR-155,3344,11748,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_A,hsa-miR-155,3386,12395,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_C,hsa-miR-223,5,15398,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_C,hsa-miR-223,5,14820,Kit B,Synthetic,-,+,N/A
+9/27/16,Kit B_B,hsa-miR-223,2,15352,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_B,hsa-miR-223,0,15293,Kit B,Synthetic,+,-,N/A
+9/27/16,Kit B_A,hsa-miR-223,13588,2092,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit B_A,hsa-miR-223,12722,1878,Kit B,Synthetic,+,+,N/A
+9/27/16,Kit C_C,cel-miR-238,5,15792,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_C,cel-miR-238,1,16487,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_B,cel-miR-238,6,15794,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_B,cel-miR-238,0,16591,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_A,cel-miR-238,14548,81,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_A,cel-miR-238,14975,95,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_C,cel-miR-39,0,16185,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_C,cel-miR-39,0,16376,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_B,cel-miR-39,2,16105,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_B,cel-miR-39,1,16426,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_A,cel-miR-39,14004,181,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_A,cel-miR-39,14914,197,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_C,hsa-miR-155,2,15721,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_C,hsa-miR-155,0,16316,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_B,hsa-miR-155,0,16073,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_B,hsa-miR-155,0,16524,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_A,hsa-miR-155,5831,9505,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_A,hsa-miR-155,6150,9931,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_C,hsa-miR-223,0,16381,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_C,hsa-miR-223,1,16507,Kit C,Synthetic,-,+,N/A
+9/27/16,Kit C_B,hsa-miR-223,1,15839,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_B,hsa-miR-223,2,15745,Kit C,Synthetic,+,-,N/A
+9/27/16,Kit C_A,hsa-miR-223,14704,239,Kit C,Synthetic,+,+,N/A
+9/27/16,Kit C_A,hsa-miR-223,13305,235,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit A_C,cel-miR-238,3,15457,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_C,cel-miR-238,4,16843,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_B,cel-miR-238,0,17386,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_B,cel-miR-238,1,15662,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_A,cel-miR-238,10650,6364,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_A,cel-miR-238,9951,5625,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_C,cel-miR-39,0,17894,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_C,cel-miR-39,0,15868,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_B,cel-miR-39,5,16591,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_B,cel-miR-39,1,16726,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_A,cel-miR-39,3251,11668,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_A,cel-miR-39,3699,12519,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_C,hsa-miR-155,2,16365,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_C,hsa-miR-155,0,17298,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_B,hsa-miR-155,9,16741,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_B,hsa-miR-155,3,17432,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_A,hsa-miR-155,1395,14813,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_A,hsa-miR-155,1397,16329,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_C,hsa-miR-223,1,15030,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_C,hsa-miR-223,4,13515,Kit A,Synthetic,-,+,N/A
+9/29/16,Kit A_B,hsa-miR-223,0,17938,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_B,hsa-miR-223,2,17385,Kit A,Synthetic,+,-,N/A
+9/29/16,Kit A_A,hsa-miR-223,9811,7102,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit A_A,hsa-miR-223,9926,7324,Kit A,Synthetic,+,+,N/A
+9/29/16,Kit B_C,cel-miR-238,2,15936,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_C,cel-miR-238,0,16696,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_B,cel-miR-238,0,16053,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_B,cel-miR-238,0,16372,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_A,cel-miR-238,8572,8248,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_A,cel-miR-238,8870,8526,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_C,cel-miR-39,2,14236,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_C,cel-miR-39,2,16432,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_B,cel-miR-39,6,14525,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_B,cel-miR-39,0,16310,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_A,cel-miR-39,7543,7228,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_A,cel-miR-39,8707,8128,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_C,hsa-miR-155,1,16523,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_C,hsa-miR-155,0,17678,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_B,hsa-miR-155,3,16115,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_B,hsa-miR-155,1,17536,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_A,hsa-miR-155,1964,14979,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_A,hsa-miR-155,2045,15532,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_C,hsa-miR-223,1,16673,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_C,hsa-miR-223,1,16446,Kit B,Synthetic,-,+,N/A
+9/29/16,Kit B_B,hsa-miR-223,1,17279,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_B,hsa-miR-223,0,16471,Kit B,Synthetic,+,-,N/A
+9/29/16,Kit B_A,hsa-miR-223,10080,7022,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit B_A,hsa-miR-223,9509,6777,Kit B,Synthetic,+,+,N/A
+9/29/16,Kit C_C,cel-miR-238,0,16887,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_C,cel-miR-238,0,17749,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_B,cel-miR-238,6,16757,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_B,cel-miR-238,0,16807,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_A,cel-miR-238,15351,1461,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_A,cel-miR-238,15529,1537,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_C,cel-miR-39,1,9585,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_C,cel-miR-39,0,16820,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_B,cel-miR-39,3,13618,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_B,cel-miR-39,2,16323,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_A,cel-miR-39,14670,1836,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_A,cel-miR-39,14382,1801,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_C,hsa-miR-155,1,16544,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_C,hsa-miR-155,1,17602,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_B,hsa-miR-155,4,15603,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_B,hsa-miR-155,1,16235,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_A,hsa-miR-155,3492,12391,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_A,hsa-miR-155,3739,13490,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_C,hsa-miR-223,9,16576,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_C,hsa-miR-223,5,15930,Kit C,Synthetic,-,+,N/A
+9/29/16,Kit C_B,hsa-miR-223,11,16052,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_B,hsa-miR-223,2,15202,Kit C,Synthetic,+,-,N/A
+9/29/16,Kit C_A,hsa-miR-223,14695,1943,Kit C,Synthetic,+,+,N/A
+9/29/16,Kit C_A,hsa-miR-223,14128,1863,Kit C,Synthetic,+,+,N/A
+9/30/16,-RNA/+RTase,cel-miR-238,0,16006,Kit D,Synthetic,-,+,N/A
+9/30/16,-RNA/+RTase,cel-miR-238,0,12569,Kit D,Synthetic,-,+,N/A
+9/30/16,+RNA/-RTase,cel-miR-238,0,13880,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/-RTase,cel-miR-238,1,15166,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/+RTase,cel-miR-238,10254,3239,Kit D,Synthetic,+,+,N/A
+9/30/16,+RNA/+RTase,cel-miR-238,10440,3687,Kit D,Synthetic,+,+,N/A
+9/30/16,-RNA/+RTase,cel-miR-39,0,16201,Kit D,Synthetic,-,+,N/A
+9/30/16,-RNA/+RTase,cel-miR-39,0,16830,Kit D,Synthetic,-,+,N/A
+9/30/16,+RNA/-RTase,cel-miR-39,0,13230,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/-RTase,cel-miR-39,0,16232,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/+RTase,cel-miR-39,9290,5597,Kit D,Synthetic,+,+,N/A
+9/30/16,+RNA/+RTase,cel-miR-39,7031,4027,Kit D,Synthetic,+,+,N/A
+9/30/16,-RNA/+RTase,hsa-miR-155,1,16364,Kit D,Synthetic,-,+,N/A
+9/30/16,-RNA/+RTase,hsa-miR-155,0,20216,Kit D,Synthetic,-,+,N/A
+9/30/16,+RNA/-RTase,hsa-miR-155,0,16718,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/-RTase,hsa-miR-155,0,17945,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/+RTase,hsa-miR-155,3578,12352,Kit D,Synthetic,+,+,N/A
+9/30/16,+RNA/+RTase,hsa-miR-155,3477,12787,Kit D,Synthetic,+,+,N/A
+9/30/16,-RNA/+RTase,hsa-miR-223,0,20507,Kit D,Synthetic,-,+,N/A
+9/30/16,-RNA/+RTase,hsa-miR-223,0,18759,Kit D,Synthetic,-,+,N/A
+9/30/16,+RNA/-RTase,hsa-miR-223,0,16454,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/-RTase,hsa-miR-223,2,17992,Kit D,Synthetic,+,-,N/A
+9/30/16,+RNA/+RTase,hsa-miR-223,13517,3465,Kit D,Synthetic,+,+,N/A
+9/30/16,+RNA/+RTase,hsa-miR-223,15076,3927,Kit D,Synthetic,+,+,N/A
+10/4/16,Kit A_A,cel-miR-238,8383,3529,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_A,cel-miR-238,8905,3568,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_B,cel-miR-238,0,13773,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_B,cel-miR-238,2,15632,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_C,cel-miR-238,12,9915,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_C,cel-miR-238,3,9801,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_A,cel-miR-39,5459,6758,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_A,cel-miR-39,5459,6481,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_B,cel-miR-39,0,15593,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_B,cel-miR-39,0,14284,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_C,cel-miR-39,7,9861,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_C,cel-miR-39,2,9069,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_A,hsa-miR-155,2204,9857,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_A,hsa-miR-155,2089,9944,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_B,hsa-miR-155,0,15008,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_B,hsa-miR-155,3,14834,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_C,hsa-miR-155,1,9914,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_C,hsa-miR-155,2,9276,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_A,hsa-miR-223,8693,2915,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_A,hsa-miR-223,8684,3024,Kit A,Synthetic,+,+,N/A
+10/4/16,Kit A_B,hsa-miR-223,0,13918,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_B,hsa-miR-223,0,12379,Kit A,Synthetic,+,-,N/A
+10/4/16,Kit A_C,hsa-miR-223,7,9398,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit A_C,hsa-miR-223,0,9151,Kit A,Synthetic,-,+,N/A
+10/4/16,Kit B_A,cel-miR-238,8478,5170,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_A,cel-miR-238,10107,6216,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_B,cel-miR-238,2,11636,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_B,cel-miR-238,3,13960,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_C,cel-miR-238,0,9523,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_C,cel-miR-238,1,10241,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_A,cel-miR-39,10199,5800,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_A,cel-miR-39,9464,5326,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_B,cel-miR-39,1,13377,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_B,cel-miR-39,1,12485,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_C,cel-miR-39,3,10034,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_C,cel-miR-39,18,9357,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_A,hsa-miR-155,3033,11557,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_A,hsa-miR-155,3268,12216,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_B,hsa-miR-155,2,12663,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_B,hsa-miR-155,1,13755,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_C,hsa-miR-155,1,10071,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_C,hsa-miR-155,2,10210,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_A,hsa-miR-223,10946,3141,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_A,hsa-miR-223,10645,2795,Kit B,Synthetic,+,+,N/A
+10/4/16,Kit B_B,hsa-miR-223,1,12435,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_B,hsa-miR-223,2,11345,Kit B,Synthetic,+,-,N/A
+10/4/16,Kit B_C,hsa-miR-223,1,9960,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit B_C,hsa-miR-223,0,10190,Kit B,Synthetic,-,+,N/A
+10/4/16,Kit C_A,cel-miR-238,7047,8881,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_A,cel-miR-238,16638,591,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_B,cel-miR-238,56,17404,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_B,cel-miR-238,4,17291,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_C,cel-miR-238,39,12596,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_C,cel-miR-238,5,12767,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_A,cel-miR-39,9010,6546,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_A,cel-miR-39,15691,293,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_B,cel-miR-39,3,17368,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_B,cel-miR-39,2,16838,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_C,cel-miR-39,2,12925,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_C,cel-miR-39,1,12126,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_A,hsa-miR-155,958,15854,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_A,hsa-miR-155,5514,11205,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_B,hsa-miR-155,0,17054,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_B,hsa-miR-155,0,16797,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_C,hsa-miR-155,1,12397,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_C,hsa-miR-155,2,12324,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_A,hsa-miR-223,13191,3131,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_A,hsa-miR-223,15604,99,Kit C,Synthetic,+,+,N/A
+10/4/16,Kit C_B,hsa-miR-223,7,16846,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_B,hsa-miR-223,6,16204,Kit C,Synthetic,+,-,N/A
+10/4/16,Kit C_C,hsa-miR-223,3,12807,Kit C,Synthetic,-,+,N/A
+10/4/16,Kit C_C,hsa-miR-223,19,13134,Kit C,Synthetic,-,+,N/A
+10/5/16,-RNA/+RTase,cel-miR-238,1,14891,Kit D,Synthetic,-,+,N/A
+10/5/16,-RNA/+RTase,cel-miR-238,0,13598,Kit D,Synthetic,-,+,N/A
+10/5/16,+RNA/-RTase,cel-miR-238,0,13338,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/-RTase,cel-miR-238,0,14475,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/+RTase,cel-miR-238,7467,5746,Kit D,Synthetic,+,+,N/A
+10/5/16,+RNA/+RTase,cel-miR-238,9039,6779,Kit D,Synthetic,+,+,N/A
+10/5/16,-RNA/+RTase,cel-miR-39,2,14075,Kit D,Synthetic,-,+,N/A
+10/5/16,-RNA/+RTase,cel-miR-39,3,12044,Kit D,Synthetic,-,+,N/A
+10/5/16,+RNA/-RTase,cel-miR-39,1,11488,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/-RTase,cel-miR-39,0,14737,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/+RTase,cel-miR-39,7911,4327,Kit D,Synthetic,+,+,N/A
+10/5/16,+RNA/+RTase,cel-miR-39,8117,4699,Kit D,Synthetic,+,+,N/A
+10/5/16,-RNA/+RTase,hsa-miR-155,0,12017,Kit D,Synthetic,-,+,N/A
+10/5/16,-RNA/+RTase,hsa-miR-155,0,13588,Kit D,Synthetic,-,+,N/A
+10/5/16,+RNA/-RTase,hsa-miR-155,0,12927,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/-RTase,hsa-miR-155,1,13158,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/+RTase,hsa-miR-155,2373,11605,Kit D,Synthetic,+,+,N/A
+10/5/16,+RNA/+RTase,hsa-miR-155,2271,11816,Kit D,Synthetic,+,+,N/A
+10/5/16,-RNA/+RTase,hsa-miR-223,1,12333,Kit D,Synthetic,-,+,N/A
+10/5/16,-RNA/+RTase,hsa-miR-223,0,11676,Kit D,Synthetic,-,+,N/A
+10/5/16,+RNA/-RTase,hsa-miR-223,0,13177,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/-RTase,hsa-miR-223,0,12135,Kit D,Synthetic,+,-,N/A
+10/5/16,+RNA/+RTase,hsa-miR-223,10274,2391,Kit D,Synthetic,+,+,N/A
+10/5/16,+RNA/+RTase,hsa-miR-223,9576,2415,Kit D,Synthetic,+,+,N/A
+10/6/16,Kit A_C,cel-miR-238,5,15941,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_C,cel-miR-238,3,15846,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_B,cel-miR-238,8,15729,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_B,cel-miR-238,0,16638,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_A,cel-miR-238,7242,6710,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_A,cel-miR-238,7308,6544,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_C,cel-miR-39,2,15220,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_C,cel-miR-39,0,15617,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_B,cel-miR-39,1,16518,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_B,cel-miR-39,1,15310,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_A,cel-miR-39,2982,10912,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_A,cel-miR-39,2939,10848,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_C,hsa-miR-155,2,14870,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_C,hsa-miR-155,0,15644,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_B,hsa-miR-155,1,15256,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_B,hsa-miR-155,1,15887,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_A,hsa-miR-155,1283,13771,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_A,hsa-miR-155,1340,14091,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_C,hsa-miR-223,1,15589,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_C,hsa-miR-223,0,14538,Kit A,Synthetic,-,+,N/A
+10/6/16,Kit A_B,hsa-miR-223,3,16099,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_B,hsa-miR-223,0,15913,Kit A,Synthetic,+,-,N/A
+10/6/16,Kit A_A,hsa-miR-223,9019,5790,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit A_A,hsa-miR-223,8928,5600,Kit A,Synthetic,+,+,N/A
+10/6/16,Kit B_C,cel-miR-238,0,15694,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_C,cel-miR-238,1,15570,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_B,cel-miR-238,0,15152,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_B,cel-miR-238,0,14834,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_A,cel-miR-238,9918,6436,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_A,cel-miR-238,9842,6228,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_C,cel-miR-39,1,15142,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_C,cel-miR-39,1,15902,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_B,cel-miR-39,1,15818,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_B,cel-miR-39,1,16049,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_A,cel-miR-39,8444,7545,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_A,cel-miR-39,7955,7331,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_C,hsa-miR-155,2,15687,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_C,hsa-miR-155,1,15527,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_B,hsa-miR-155,0,16336,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_B,hsa-miR-155,0,16484,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_A,hsa-miR-155,2016,13603,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_A,hsa-miR-155,1918,13290,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_C,hsa-miR-223,1,15485,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_C,hsa-miR-223,0,14269,Kit B,Synthetic,-,+,N/A
+10/6/16,Kit B_B,hsa-miR-223,1,15536,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_B,hsa-miR-223,0,14676,Kit B,Synthetic,+,-,N/A
+10/6/16,Kit B_A,hsa-miR-223,9338,5887,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit B_A,hsa-miR-223,8841,5459,Kit B,Synthetic,+,+,N/A
+10/6/16,Kit C_C,cel-miR-238,1,15161,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_C,cel-miR-238,0,16144,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_B,cel-miR-238,3,15065,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_B,cel-miR-238,0,16334,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_A,cel-miR-238,12057,2924,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_A,cel-miR-238,12923,3087,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_C,cel-miR-39,6,16439,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_C,cel-miR-39,0,15729,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_B,cel-miR-39,5,16464,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_B,cel-miR-39,0,15815,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_A,cel-miR-39,11914,4251,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_A,cel-miR-39,11029,3972,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_C,hsa-miR-155,5,11599,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_C,hsa-miR-155,1,15954,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_B,hsa-miR-155,0,15832,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_B,hsa-miR-155,1,16174,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_A,hsa-miR-155,2346,12652,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_A,hsa-miR-155,2527,13632,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_C,hsa-miR-223,1,16102,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_C,hsa-miR-223,2,16236,Kit C,Synthetic,-,+,N/A
+10/6/16,Kit C_B,hsa-miR-223,2,16220,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_B,hsa-miR-223,0,16314,Kit C,Synthetic,+,-,N/A
+10/6/16,Kit C_A,hsa-miR-223,12231,4065,Kit C,Synthetic,+,+,N/A
+10/6/16,Kit C_A,hsa-miR-223,12171,3833,Kit C,Synthetic,+,+,N/A
+12/1/16,C,cel-miR-238,157,11815,Kit C,Titration,-,+,N/A
+12/1/16,C,cel-miR-238,183,14423,Kit C,Titration,-,+,N/A
+12/1/16,C,cel-miR-238,152,12536,Kit C,Titration,-,+,N/A
+12/1/16,B,cel-miR-238,0,20079,Kit C,Titration,+,-,N/A
+12/1/16,B,cel-miR-238,84,14309,Kit C,Titration,+,-,N/A
+12/1/16,B,cel-miR-238,49,11424,Kit C,Titration,+,-,N/A
+12/1/16,A1,cel-miR-238,8773,8562,Kit C,Titration,+,+,N/A
+12/1/16,A1,cel-miR-238,15113,4,Kit C,Titration,+,+,N/A
+12/1/16,A1,cel-miR-238,13136,10,Kit C,Titration,+,+,N/A
+12/1/16,A2,cel-miR-238,8526,7202,Kit C,Titration,+,+,N/A
+12/1/16,A2,cel-miR-238,8287,6909,Kit C,Titration,+,+,N/A
+12/1/16,A2,cel-miR-238,959,3583,Kit C,Titration,+,+,N/A
+12/1/16,A3,cel-miR-238,9,20924,Kit C,Titration,+,+,N/A
+12/1/16,A3,cel-miR-238,2440,15941,Kit C,Titration,+,+,N/A
+12/1/16,A3,cel-miR-238,1863,12573,Kit C,Titration,+,+,N/A
+12/1/16,A4,cel-miR-238,526,11929,Kit C,Titration,+,+,N/A
+12/1/16,A4,cel-miR-238,607,14129,Kit C,Titration,+,+,N/A
+12/1/16,A4,cel-miR-238,552,13579,Kit C,Titration,+,+,N/A
+12/1/16,A5,cel-miR-238,0,18417,Kit C,Titration,+,+,N/A
+12/1/16,A5,cel-miR-238,235,12049,Kit C,Titration,+,+,N/A
+12/1/16,A5,cel-miR-238,252,12655,Kit C,Titration,+,+,N/A
+12/1/16,C,cel-miR-39,5,12944,Kit C,Titration,-,+,N/A
+12/1/16,C,cel-miR-39,11,16086,Kit C,Titration,-,+,N/A
+12/1/16,C,cel-miR-39,4,12097,Kit C,Titration,-,+,N/A
+12/1/16,B,cel-miR-39,4,11737,Kit C,Titration,+,-,N/A
+12/1/16,B,cel-miR-39,0,14841,Kit C,Titration,+,-,N/A
+12/1/16,B,cel-miR-39,7,13609,Kit C,Titration,+,-,N/A
+12/1/16,A1,cel-miR-39,18939,177,Kit C,Titration,+,+,N/A
+12/1/16,A1,cel-miR-39,15560,158,Kit C,Titration,+,+,N/A
+12/1/16,A1,cel-miR-39,17573,172,Kit C,Titration,+,+,N/A
+12/1/16,A2,cel-miR-39,6657,9382,Kit C,Titration,+,+,N/A
+12/1/16,A2,cel-miR-39,8333,11288,Kit C,Titration,+,+,N/A
+12/1/16,A2,cel-miR-39,7321,10357,Kit C,Titration,+,+,N/A
+12/1/16,A3,cel-miR-39,1679,18017,Kit C,Titration,+,+,N/A
+12/1/16,A3,cel-miR-39,1338,14855,Kit C,Titration,+,+,N/A
+12/1/16,A3,cel-miR-39,1532,16530,Kit C,Titration,+,+,N/A
+12/1/16,A4,cel-miR-39,340,16391,Kit C,Titration,+,+,N/A
+12/1/16,A4,cel-miR-39,329,15540,Kit C,Titration,+,+,N/A
+12/1/16,A4,cel-miR-39,322,15547,Kit C,Titration,+,+,N/A
+12/1/16,A5,cel-miR-39,81,15506,Kit C,Titration,+,+,N/A
+12/1/16,A5,cel-miR-39,75,15267,Kit C,Titration,+,+,N/A
+12/1/16,A5,cel-miR-39,68,14126,Kit C,Titration,+,+,N/A
+12/1/16,C,hsa-miR-155,5,16287,Kit C,Titration,-,+,N/A
+12/1/16,C,hsa-miR-155,9,16524,Kit C,Titration,-,+,N/A
+12/1/16,C,hsa-miR-155,6,16782,Kit C,Titration,-,+,N/A
+12/1/16,B,hsa-miR-155,3,14574,Kit C,Titration,+,-,N/A
+12/1/16,B,hsa-miR-155,0,15548,Kit C,Titration,+,-,N/A
+12/1/16,B,hsa-miR-155,1,15134,Kit C,Titration,+,-,N/A
+12/1/16,A1,hsa-miR-155,6124,9679,Kit C,Titration,+,+,N/A
+12/1/16,A1,hsa-miR-155,6392,10261,Kit C,Titration,+,+,N/A
+12/1/16,A1,hsa-miR-155,5504,8792,Kit C,Titration,+,+,N/A
+12/1/16,A2,hsa-miR-155,900,14753,Kit C,Titration,+,+,N/A
+12/1/16,A2,hsa-miR-155,1139,18539,Kit C,Titration,+,+,N/A
+12/1/16,A2,hsa-miR-155,955,15419,Kit C,Titration,+,+,N/A
+12/1/16,A3,hsa-miR-155,153,15759,Kit C,Titration,+,+,N/A
+12/1/16,A3,hsa-miR-155,175,16593,Kit C,Titration,+,+,N/A
+12/1/16,A3,hsa-miR-155,155,16554,Kit C,Titration,+,+,N/A
+12/1/16,A4,hsa-miR-155,35,15449,Kit C,Titration,+,+,N/A
+12/1/16,A4,hsa-miR-155,28,17028,Kit C,Titration,+,+,N/A
+12/1/16,A4,hsa-miR-155,38,16585,Kit C,Titration,+,+,N/A
+12/1/16,A5,hsa-miR-155,9,15420,Kit C,Titration,+,+,N/A
+12/1/16,A5,hsa-miR-155,14,15803,Kit C,Titration,+,+,N/A
+12/1/16,A5,hsa-miR-155,15,14446,Kit C,Titration,+,+,N/A
+12/1/16,C,hsa-miR-223,6,16119,Kit C,Titration,-,+,N/A
+12/1/16,C,hsa-miR-223,2,17660,Kit C,Titration,-,+,N/A
+12/1/16,C,hsa-miR-223,2,9948,Kit C,Titration,-,+,N/A
+12/1/16,B,hsa-miR-223,2,15457,Kit C,Titration,+,-,N/A
+12/1/16,B,hsa-miR-223,0,16308,Kit C,Titration,+,-,N/A
+12/1/16,B,hsa-miR-223,0,9597,Kit C,Titration,+,-,N/A
+12/1/16,A1,hsa-miR-223,15948,23,Kit C,Titration,+,+,N/A
+12/1/16,A1,hsa-miR-223,16999,55,Kit C,Titration,+,+,N/A
+12/1/16,A1,hsa-miR-223,10497,18,Kit C,Titration,+,+,N/A
+12/1/16,A2,hsa-miR-223,8916,10458,Kit C,Titration,+,+,N/A
+12/1/16,A2,hsa-miR-223,7676,8755,Kit C,Titration,+,+,N/A
+12/1/16,A2,hsa-miR-223,5015,5818,Kit C,Titration,+,+,N/A
+12/1/16,A3,hsa-miR-223,1675,14520,Kit C,Titration,+,+,N/A
+12/1/16,A3,hsa-miR-223,1768,15692,Kit C,Titration,+,+,N/A
+12/1/16,A3,hsa-miR-223,1077,9186,Kit C,Titration,+,+,N/A
+12/1/16,A4,hsa-miR-223,406,15877,Kit C,Titration,+,+,N/A
+12/1/16,A4,hsa-miR-223,394,16832,Kit C,Titration,+,+,N/A
+12/1/16,A4,hsa-miR-223,297,10337,Kit C,Titration,+,+,N/A
+12/1/16,A5,hsa-miR-223,71,15442,Kit C,Titration,+,+,N/A
+12/1/16,A5,hsa-miR-223,91,17264,Kit C,Titration,+,+,N/A
+12/1/16,A5,hsa-miR-223,53,10878,Kit C,Titration,+,+,N/A
+12/6/16,C,cel-miR-238,6,14478,Kit A,Titration,-,+,N/A
+12/6/16,C,cel-miR-238,5,15651,Kit A,Titration,-,+,N/A
+12/6/16,C,cel-miR-238,8,19545,Kit A,Titration,-,+,N/A
+12/6/16,B,cel-miR-238,0,16050,Kit A,Titration,+,-,N/A
+12/6/16,B,cel-miR-238,0,16444,Kit A,Titration,+,-,N/A
+12/6/16,B,cel-miR-238,0,19195,Kit A,Titration,+,-,N/A
+12/6/16,A1,cel-miR-238,15163,342,Kit A,Titration,+,+,N/A
+12/6/16,A1,cel-miR-238,16507,388,Kit A,Titration,+,+,N/A
+12/6/16,A1,cel-miR-238,14560,348,Kit A,Titration,+,+,N/A
+12/6/16,A2,cel-miR-238,8483,8470,Kit A,Titration,+,+,N/A
+12/6/16,A2,cel-miR-238,8831,8806,Kit A,Titration,+,+,N/A
+12/6/16,A2,cel-miR-238,8836,8051,Kit A,Titration,+,+,N/A
+12/6/16,A3,cel-miR-238,2130,16455,Kit A,Titration,+,+,N/A
+12/6/16,A3,cel-miR-238,2262,16950,Kit A,Titration,+,+,N/A
+12/6/16,A3,cel-miR-238,2257,16889,Kit A,Titration,+,+,N/A
+12/6/16,A4,cel-miR-238,413,17120,Kit A,Titration,+,+,N/A
+12/6/16,A4,cel-miR-238,398,18420,Kit A,Titration,+,+,N/A
+12/6/16,A4,cel-miR-238,150,8779,Kit A,Titration,+,+,N/A
+12/6/16,A5,cel-miR-238,78,16386,Kit A,Titration,+,+,N/A
+12/6/16,A5,cel-miR-238,74,17834,Kit A,Titration,+,+,N/A
+12/6/16,A5,cel-miR-238,69,15003,Kit A,Titration,+,+,N/A
+12/6/16,C,cel-miR-39,0,15404,Kit A,Titration,-,+,N/A
+12/6/16,C,cel-miR-39,2,12657,Kit A,Titration,-,+,N/A
+12/6/16,C,cel-miR-39,8,19762,Kit A,Titration,-,+,N/A
+12/6/16,B,cel-miR-39,0,16358,Kit A,Titration,+,-,N/A
+12/6/16,B,cel-miR-39,0,17829,Kit A,Titration,+,-,N/A
+12/6/16,B,cel-miR-39,0,20083,Kit A,Titration,+,-,N/A
+12/6/16,A1,cel-miR-39,12804,4228,Kit A,Titration,+,+,N/A
+12/6/16,A1,cel-miR-39,11138,4166,Kit A,Titration,+,+,N/A
+12/6/16,A1,cel-miR-39,11718,4153,Kit A,Titration,+,+,N/A
+12/6/16,A2,cel-miR-39,3920,14715,Kit A,Titration,+,+,N/A
+12/6/16,A2,cel-miR-39,3797,14685,Kit A,Titration,+,+,N/A
+12/6/16,A2,cel-miR-39,3724,14282,Kit A,Titration,+,+,N/A
+12/6/16,A3,cel-miR-39,785,18338,Kit A,Titration,+,+,N/A
+12/6/16,A3,cel-miR-39,771,19158,Kit A,Titration,+,+,N/A
+12/6/16,A3,cel-miR-39,775,18807,Kit A,Titration,+,+,N/A
+12/6/16,A4,cel-miR-39,152,18288,Kit A,Titration,+,+,N/A
+12/6/16,A4,cel-miR-39,144,19306,Kit A,Titration,+,+,N/A
+12/6/16,A4,cel-miR-39,130,18952,Kit A,Titration,+,+,N/A
+12/6/16,A5,cel-miR-39,31,17802,Kit A,Titration,+,+,N/A
+12/6/16,A5,cel-miR-39,27,18645,Kit A,Titration,+,+,N/A
+12/6/16,A5,cel-miR-39,27,19438,Kit A,Titration,+,+,N/A
+12/6/16,C,hsa-miR-155,9,15934,Kit A,Titration,-,+,N/A
+12/6/16,C,hsa-miR-155,6,15787,Kit A,Titration,-,+,N/A
+12/6/16,C,hsa-miR-155,4,19211,Kit A,Titration,-,+,N/A
+12/6/16,B,hsa-miR-155,0,16479,Kit A,Titration,+,-,N/A
+12/6/16,B,hsa-miR-155,0,16737,Kit A,Titration,+,-,N/A
+12/6/16,B,hsa-miR-155,0,20151,Kit A,Titration,+,-,N/A
+12/6/16,A1,hsa-miR-155,5215,12707,Kit A,Titration,+,+,N/A
+12/6/16,A1,hsa-miR-155,4923,12289,Kit A,Titration,+,+,N/A
+12/6/16,A1,hsa-miR-155,5433,10666,Kit A,Titration,+,+,N/A
+12/6/16,A2,hsa-miR-155,958,18031,Kit A,Titration,+,+,N/A
+12/6/16,A2,hsa-miR-155,949,17521,Kit A,Titration,+,+,N/A
+12/6/16,A2,hsa-miR-155,984,15927,Kit A,Titration,+,+,N/A
+12/6/16,A3,hsa-miR-155,199,19548,Kit A,Titration,+,+,N/A
+12/6/16,A3,hsa-miR-155,175,19368,Kit A,Titration,+,+,N/A
+12/6/16,A3,hsa-miR-155,187,18644,Kit A,Titration,+,+,N/A
+12/6/16,A4,hsa-miR-155,36,19028,Kit A,Titration,+,+,N/A
+12/6/16,A4,hsa-miR-155,30,18290,Kit A,Titration,+,+,N/A
+12/6/16,A4,hsa-miR-155,26,14796,Kit A,Titration,+,+,N/A
+12/6/16,A5,hsa-miR-155,15,17005,Kit A,Titration,+,+,N/A
+12/6/16,A5,hsa-miR-155,14,16310,Kit A,Titration,+,+,N/A
+12/6/16,A5,hsa-miR-155,9,18012,Kit A,Titration,+,+,N/A
+12/6/16,C,hsa-miR-223,66,16748,Kit A,Titration,-,+,N/A
+12/6/16,C,hsa-miR-223,6,20080,Kit A,Titration,-,+,N/A
+12/6/16,C,hsa-miR-223,11,19363,Kit A,Titration,-,+,N/A
+12/6/16,B,hsa-miR-223,0,18644,Kit A,Titration,+,-,N/A
+12/6/16,B,hsa-miR-223,0,19763,Kit A,Titration,+,-,N/A
+12/6/16,B,hsa-miR-223,0,19893,Kit A,Titration,+,-,N/A
+12/6/16,A1,hsa-miR-223,18897,267,Kit A,Titration,+,+,N/A
+12/6/16,A1,hsa-miR-223,15778,217,Kit A,Titration,+,+,N/A
+12/6/16,A1,hsa-miR-223,15923,211,Kit A,Titration,+,+,N/A
+12/6/16,A2,hsa-miR-223,8338,11166,Kit A,Titration,+,+,N/A
+12/6/16,A2,hsa-miR-223,7102,9782,Kit A,Titration,+,+,N/A
+12/6/16,A2,hsa-miR-223,7967,9745,Kit A,Titration,+,+,N/A
+12/6/16,A3,hsa-miR-223,2176,17635,Kit A,Titration,+,+,N/A
+12/6/16,A3,hsa-miR-223,1904,17393,Kit A,Titration,+,+,N/A
+12/6/16,A3,hsa-miR-223,1928,17124,Kit A,Titration,+,+,N/A
+12/6/16,A4,hsa-miR-223,398,19458,Kit A,Titration,+,+,N/A
+12/6/16,A4,hsa-miR-223,362,18904,Kit A,Titration,+,+,N/A
+12/6/16,A4,hsa-miR-223,408,18171,Kit A,Titration,+,+,N/A
+12/6/16,A5,hsa-miR-223,118,18796,Kit A,Titration,+,+,N/A
+12/6/16,A5,hsa-miR-223,78,16325,Kit A,Titration,+,+,N/A
+12/6/16,A5,hsa-miR-223,145,18511,Kit A,Titration,+,+,N/A
+12/27/16,C,cel-miR-238,20,19305,Kit B,Titration,-,+,N/A
+12/27/16,C,cel-miR-238,12,15844,Kit B,Titration,-,+,N/A
+12/27/16,C,cel-miR-238,7,19388,Kit B,Titration,-,+,N/A
+12/27/16,B,cel-miR-238,14,19762,Kit B,Titration,+,-,N/A
+12/27/16,B,cel-miR-238,11,18440,Kit B,Titration,+,-,N/A
+12/27/16,B,cel-miR-238,7,19952,Kit B,Titration,+,-,N/A
+12/27/16,A1,cel-miR-238,15301,112,Kit B,Titration,+,+,N/A
+12/27/16,A1,cel-miR-238,16929,127,Kit B,Titration,+,+,N/A
+12/27/16,A1,cel-miR-238,15673,117,Kit B,Titration,+,+,N/A
+12/27/16,A2,cel-miR-238,8308,7329,Kit B,Titration,+,+,N/A
+12/27/16,A2,cel-miR-238,9731,8542,Kit B,Titration,+,+,N/A
+12/27/16,A2,cel-miR-238,8461,7280,Kit B,Titration,+,+,N/A
+12/27/16,A3,cel-miR-238,2201,16263,Kit B,Titration,+,+,N/A
+12/27/16,A3,cel-miR-238,2282,16476,Kit B,Titration,+,+,N/A
+12/27/16,A3,cel-miR-238,2323,17354,Kit B,Titration,+,+,N/A
+12/27/16,A4,cel-miR-238,417,16578,Kit B,Titration,+,+,N/A
+12/27/16,A4,cel-miR-238,466,18204,Kit B,Titration,+,+,N/A
+12/27/16,A4,cel-miR-238,473,18034,Kit B,Titration,+,+,N/A
+12/27/16,A5,cel-miR-238,76,15132,Kit B,Titration,+,+,N/A
+12/27/16,A5,cel-miR-238,88,18290,Kit B,Titration,+,+,N/A
+12/27/16,A5,cel-miR-238,87,15859,Kit B,Titration,+,+,N/A
+12/27/16,C,cel-miR-39,7,15192,Kit B,Titration,-,+,N/A
+12/27/16,C,cel-miR-39,6,18498,Kit B,Titration,-,+,N/A
+12/27/16,C,cel-miR-39,6,16018,Kit B,Titration,-,+,N/A
+12/27/16,B,cel-miR-39,15,16721,Kit B,Titration,+,-,N/A
+12/27/16,B,cel-miR-39,4,19144,Kit B,Titration,+,-,N/A
+12/27/16,B,cel-miR-39,3,19068,Kit B,Titration,+,-,N/A
+12/27/16,A1,cel-miR-39,16382,514,Kit B,Titration,+,+,N/A
+12/27/16,A1,cel-miR-39,14868,426,Kit B,Titration,+,+,N/A
+12/27/16,A1,cel-miR-39,17092,478,Kit B,Titration,+,+,N/A
+12/27/16,A2,cel-miR-39,7856,9896,Kit B,Titration,+,+,N/A
+12/27/16,A2,cel-miR-39,6865,8512,Kit B,Titration,+,+,N/A
+12/27/16,A2,cel-miR-39,8322,10347,Kit B,Titration,+,+,N/A
+12/27/16,A3,cel-miR-39,1755,16647,Kit B,Titration,+,+,N/A
+12/27/16,A3,cel-miR-39,1330,13849,Kit B,Titration,+,+,N/A
+12/27/16,A3,cel-miR-39,1705,17427,Kit B,Titration,+,+,N/A
+12/27/16,A4,cel-miR-39,278,18209,Kit B,Titration,+,+,N/A
+12/27/16,A4,cel-miR-39,279,16579,Kit B,Titration,+,+,N/A
+12/27/16,A4,cel-miR-39,303,18593,Kit B,Titration,+,+,N/A
+12/27/16,A5,cel-miR-39,65,17288,Kit B,Titration,+,+,N/A
+12/27/16,A5,cel-miR-39,55,15217,Kit B,Titration,+,+,N/A
+12/27/16,A5,cel-miR-39,74,18333,Kit B,Titration,+,+,N/A
+12/27/16,C,hsa-miR-155,7,19312,Kit B,Titration,-,+,N/A
+12/27/16,C,hsa-miR-155,15,14997,Kit B,Titration,-,+,N/A
+12/27/16,C,hsa-miR-155,19,15621,Kit B,Titration,-,+,N/A
+12/27/16,B,hsa-miR-155,5,19534,Kit B,Titration,+,-,N/A
+12/27/16,B,hsa-miR-155,1,17937,Kit B,Titration,+,-,N/A
+12/27/16,B,hsa-miR-155,3,18537,Kit B,Titration,+,-,N/A
+12/27/16,A1,hsa-miR-155,7385,7875,Kit B,Titration,+,+,N/A
+12/27/16,A1,hsa-miR-155,8292,8457,Kit B,Titration,+,+,N/A
+12/27/16,A1,hsa-miR-155,8765,9010,Kit B,Titration,+,+,N/A
+12/27/16,A2,hsa-miR-155,1771,14250,Kit B,Titration,+,+,N/A
+12/27/16,A2,hsa-miR-155,1973,16573,Kit B,Titration,+,+,N/A
+12/27/16,A2,hsa-miR-155,2020,16569,Kit B,Titration,+,+,N/A
+12/27/16,A3,hsa-miR-155,330,18103,Kit B,Titration,+,+,N/A
+12/27/16,A3,hsa-miR-155,313,18734,Kit B,Titration,+,+,N/A
+12/27/16,A3,hsa-miR-155,342,18640,Kit B,Titration,+,+,N/A
+12/27/16,A4,hsa-miR-155,63,14861,Kit B,Titration,+,+,N/A
+12/27/16,A4,hsa-miR-155,73,17744,Kit B,Titration,+,+,N/A
+12/27/16,A4,hsa-miR-155,88,18566,Kit B,Titration,+,+,N/A
+12/27/16,A5,hsa-miR-155,22,17433,Kit B,Titration,+,+,N/A
+12/27/16,A5,hsa-miR-155,26,17422,Kit B,Titration,+,+,N/A
+12/27/16,A5,hsa-miR-155,19,18515,Kit B,Titration,+,+,N/A
+12/27/16,C,hsa-miR-223,8,19204,Kit B,Titration,-,+,N/A
+12/27/16,C,hsa-miR-223,0,15078,Kit B,Titration,-,+,N/A
+12/27/16,C,hsa-miR-223,6,14969,Kit B,Titration,-,+,N/A
+12/27/16,B,hsa-miR-223,3,19540,Kit B,Titration,+,-,N/A
+12/27/16,B,hsa-miR-223,1,17356,Kit B,Titration,+,-,N/A
+12/27/16,B,hsa-miR-223,4,15766,Kit B,Titration,+,-,N/A
+12/27/16,A1,hsa-miR-223,15180,141,Kit B,Titration,+,+,N/A
+12/27/16,A1,hsa-miR-223,16554,155,Kit B,Titration,+,+,N/A
+12/27/16,A1,hsa-miR-223,16496,123,Kit B,Titration,+,+,N/A
+12/27/16,A2,hsa-miR-223,8690,7183,Kit B,Titration,+,+,N/A
+12/27/16,A2,hsa-miR-223,9697,8169,Kit B,Titration,+,+,N/A
+12/27/16,A2,hsa-miR-223,8883,7098,Kit B,Titration,+,+,N/A
+12/27/16,A3,hsa-miR-223,1945,14923,Kit B,Titration,+,+,N/A
+12/27/16,A3,hsa-miR-223,2329,16185,Kit B,Titration,+,+,N/A
+12/27/16,A3,hsa-miR-223,2223,16370,Kit B,Titration,+,+,N/A
+12/27/16,A4,hsa-miR-223,322,14337,Kit B,Titration,+,+,N/A
+12/27/16,A4,hsa-miR-223,375,16831,Kit B,Titration,+,+,N/A
+12/27/16,A4,hsa-miR-223,384,17190,Kit B,Titration,+,+,N/A
+12/27/16,A5,hsa-miR-223,62,15505,Kit B,Titration,+,+,N/A
+12/27/16,A5,hsa-miR-223,77,17386,Kit B,Titration,+,+,N/A
+12/27/16,A5,hsa-miR-223,63,16452,Kit B,Titration,+,+,N/A
+1/11/17,C3+,cel-miR-238,6,20316,Kit A,THP-1,-,+,+
+1/11/17,C3+,cel-miR-238,5,21283,Kit A,THP-1,-,+,+
+1/11/17,B3+,cel-miR-238,0,19058,Kit A,THP-1,+,-,+
+1/11/17,B3+,cel-miR-238,0,19527,Kit A,THP-1,+,-,+
+1/11/17,A3+,cel-miR-238,16192,2250,Kit A,THP-1,+,+,+
+1/11/17,A3+,cel-miR-238,17285,2224,Kit A,THP-1,+,+,+
+1/11/17,A3+,cel-miR-238,16618,2388,Kit A,THP-1,+,+,+
+1/11/17,C3+,cel-miR-39,14,20435,Kit A,THP-1,-,+,+
+1/11/17,C3+,cel-miR-39,1,21506,Kit A,THP-1,-,+,+
+1/11/17,B3+,cel-miR-39,2,20073,Kit A,THP-1,+,-,+
+1/11/17,B3+,cel-miR-39,0,19036,Kit A,THP-1,+,-,+
+1/11/17,A3+,cel-miR-39,112,19214,Kit A,THP-1,+,+,+
+1/11/17,A3+,cel-miR-39,58,18928,Kit A,THP-1,+,+,+
+1/11/17,A3+,cel-miR-39,64,19388,Kit A,THP-1,+,+,+
+1/11/17,C3+,hsa-miR-155,1,20762,Kit A,THP-1,-,+,+
+1/11/17,C3+,hsa-miR-155,2,21744,Kit A,THP-1,-,+,+
+1/11/17,B3+,hsa-miR-155,0,17799,Kit A,THP-1,+,-,+
+1/11/17,B3+,hsa-miR-155,0,17375,Kit A,THP-1,+,-,+
+1/11/17,A3+,hsa-miR-155,2786,13847,Kit A,THP-1,+,+,+
+1/11/17,A3+,hsa-miR-155,3139,15312,Kit A,THP-1,+,+,+
+1/11/17,A3+,hsa-miR-155,2404,14858,Kit A,THP-1,+,+,+
+1/11/17,C3+,hsa-miR-223,8,21600,Kit A,THP-1,-,+,+
+1/11/17,C3+,hsa-miR-223,2,22008,Kit A,THP-1,-,+,+
+1/11/17,B3+,hsa-miR-223,1,16056,Kit A,THP-1,+,-,+
+1/11/17,B3+,hsa-miR-223,0,16311,Kit A,THP-1,+,-,+
+1/11/17,A3+,hsa-miR-223,4628,11018,Kit A,THP-1,+,+,+
+1/11/17,A3+,hsa-miR-223,4926,13623,Kit A,THP-1,+,+,+
+1/11/17,A3+,hsa-miR-223,3823,11991,Kit A,THP-1,+,+,+
+1/11/17,C2+,cel-miR-238,16,19643,Kit B,THP-1,-,+,+
+1/11/17,C2+,cel-miR-238,21,19847,Kit B,THP-1,-,+,+
+1/11/17,B2+,cel-miR-238,4,18521,Kit B,THP-1,+,-,+
+1/11/17,B2+,cel-miR-238,6,18838,Kit B,THP-1,+,-,+
+1/11/17,A2+,cel-miR-238,18664,152,Kit B,THP-1,+,+,+
+1/11/17,A2+,cel-miR-238,16338,153,Kit B,THP-1,+,+,+
+1/11/17,A2+,cel-miR-238,18946,180,Kit B,THP-1,+,+,+
+1/11/17,C2+,cel-miR-39,8,18966,Kit B,THP-1,-,+,+
+1/11/17,C2+,cel-miR-39,5,19716,Kit B,THP-1,-,+,+
+1/11/17,B2+,cel-miR-39,2,18985,Kit B,THP-1,+,-,+
+1/11/17,B2+,cel-miR-39,2,18880,Kit B,THP-1,+,-,+
+1/11/17,A2+,cel-miR-39,245,18246,Kit B,THP-1,+,+,+
+1/11/17,A2+,cel-miR-39,223,17482,Kit B,THP-1,+,+,+
+1/11/17,A2+,cel-miR-39,223,18440,Kit B,THP-1,+,+,+
+1/11/17,C2+,hsa-miR-155,8,18604,Kit B,THP-1,-,+,+
+1/11/17,C2+,hsa-miR-155,7,18368,Kit B,THP-1,-,+,+
+1/11/17,B2+,hsa-miR-155,10,17375,Kit B,THP-1,+,-,+
+1/11/17,B2+,hsa-miR-155,3,17777,Kit B,THP-1,+,-,+
+1/11/17,A2+,hsa-miR-155,3745,13382,Kit B,THP-1,+,+,+
+1/11/17,A2+,hsa-miR-155,3326,12467,Kit B,THP-1,+,+,+
+1/11/17,A2+,hsa-miR-155,4149,15185,Kit B,THP-1,+,+,+
+1/11/17,C2+,hsa-miR-223,8,16579,Kit B,THP-1,-,+,+
+1/11/17,C2+,hsa-miR-223,16,17081,Kit B,THP-1,-,+,+
+1/11/17,B2+,hsa-miR-223,9,16074,Kit B,THP-1,+,-,+
+1/11/17,B2+,hsa-miR-223,9,14590,Kit B,THP-1,+,-,+
+1/11/17,A2+,hsa-miR-223,8682,10311,Kit B,THP-1,+,+,+
+1/11/17,A2+,hsa-miR-223,6614,7988,Kit B,THP-1,+,+,+
+1/11/17,A2+,hsa-miR-223,8766,10617,Kit B,THP-1,+,+,+
+1/11/17,C1+,cel-miR-238,21,18575,Kit C,THP-1,-,+,+
+1/11/17,C1+,cel-miR-238,22,18542,Kit C,THP-1,-,+,+
+1/11/17,B1+,cel-miR-238,12,18202,Kit C,THP-1,+,-,+
+1/11/17,B1+,cel-miR-238,15,18703,Kit C,THP-1,+,-,+
+1/11/17,A1+,cel-miR-238,17266,8,Kit C,THP-1,+,+,+
+1/11/17,A1+,cel-miR-238,15756,1,Kit C,THP-1,+,+,+
+1/11/17,A1+,cel-miR-238,17715,1,Kit C,THP-1,+,+,+
+1/11/17,C1+,cel-miR-39,5,19237,Kit C,THP-1,-,+,+
+1/11/17,C1+,cel-miR-39,3,18310,Kit C,THP-1,-,+,+
+1/11/17,B1+,cel-miR-39,1,18754,Kit C,THP-1,+,-,+
+1/11/17,B1+,cel-miR-39,5,18756,Kit C,THP-1,+,-,+
+1/11/17,A1+,cel-miR-39,754,18459,Kit C,THP-1,+,+,+
+1/11/17,A1+,cel-miR-39,676,17605,Kit C,THP-1,+,+,+
+1/11/17,A1+,cel-miR-39,665,17129,Kit C,THP-1,+,+,+
+1/11/17,C1+,hsa-miR-155,1,17817,Kit C,THP-1,-,+,+
+1/11/17,C1+,hsa-miR-155,7,18684,Kit C,THP-1,-,+,+
+1/11/17,B1+,hsa-miR-155,2,18429,Kit C,THP-1,+,-,+
+1/11/17,B1+,hsa-miR-155,5,18752,Kit C,THP-1,+,-,+
+1/11/17,A1+,hsa-miR-155,7053,10558,Kit C,THP-1,+,+,+
+1/11/17,A1+,hsa-miR-155,6155,9256,Kit C,THP-1,+,+,+
+1/11/17,A1+,hsa-miR-155,7086,10760,Kit C,THP-1,+,+,+
+1/11/17,C1+,hsa-miR-223,94,16768,Kit C,THP-1,-,+,+
+1/11/17,C1+,hsa-miR-223,81,17273,Kit C,THP-1,-,+,+
+1/11/17,B1+,hsa-miR-223,34,19153,Kit C,THP-1,+,-,+
+1/11/17,B1+,hsa-miR-223,43,19484,Kit C,THP-1,+,-,+
+1/11/17,A1+,hsa-miR-223,11110,4930,Kit C,THP-1,+,+,+
+1/11/17,A1+,hsa-miR-223,10126,4796,Kit C,THP-1,+,+,+
+1/11/17,A1+,hsa-miR-223,11242,5032,Kit C,THP-1,+,+,+
+3/17/17,C: NTC,cel-miR-238,2,19386,Kit B,N/A,-,+,+
+3/17/17,C: NTC,cel-miR-238,0,21372,Kit B,N/A,-,+,+
+3/17/17,B2: Neutrophil NEC,cel-miR-238,4,20354,Kit B,Neutrophil, +, -,+
+3/17/17,B2: Neutrophil NEC,cel-miR-238,4,20429,Kit B,Neutrophil, +, -,+
+3/17/17,B1: Monocyte NEC,cel-miR-238,24,20637,Kit B,Monocyte,+,-,+
+3/17/17,B1: Monocyte NEC,cel-miR-238,3,20888,Kit B,Monocyte,+,-,+
+3/17/17,A1: Monocytes,cel-miR-238,19727,862,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,cel-miR-238,19659,862,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,cel-miR-238,18915,926,Kit B,Monocytes,+,+,+
+3/17/17,A2: Neutrophils,cel-miR-238,20817,0,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,cel-miR-238,20734,0,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,cel-miR-238,20993,0,Kit B,Neutrophils,+,+,+
+3/17/17,C: NTC,cel-miR-39,1,20845,Kit B,N/A,-,+,+
+3/17/17,C: NTC,cel-miR-39,0,19943,Kit B,N/A,-,+,+
+3/17/17,B2: Neutrophil NEC,cel-miR-39,2,19186,Kit B,Neutrophil, +, -,+
+3/17/17,B2: Neutrophil NEC,cel-miR-39,5,20213,Kit B,Neutrophil, +, -,+
+3/17/17,B1: Monocyte NEC,cel-miR-39,20,21002,Kit B,Monocyte,+,-,+
+3/17/17,B1: Monocyte NEC,cel-miR-39,9,23260,Kit B,Monocyte,+,-,+
+3/17/17,A1: Monocytes,cel-miR-39,1359,19597,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,cel-miR-39,1310,19329,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,cel-miR-39,1206,18078,Kit B,Monocytes,+,+,+
+3/17/17,A2: Neutrophils,cel-miR-39,1778,18778,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,cel-miR-39,1746,18671,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,cel-miR-39,1752,18782,Kit B,Neutrophils,+,+,+
+3/17/17,A2: CD14+ Sample,hsa-miR-155,5,19575,Kit B,N/A,-,+,+
+3/17/17,C: NTC,hsa-miR-155,0,19795,Kit B,N/A,-,+,+
+3/17/17,B2: Neutrophil NEC,hsa-miR-155,7,18992,Kit B,Neutrophil, +, -,+
+3/17/17,B2: Neutrophil NEC,hsa-miR-155,4,19157,Kit B,Neutrophil, +, -,+
+3/17/17,B1: Monocyte NEC,hsa-miR-155,9,19957,Kit B,Monocyte,+,-,+
+3/17/17,B1: Monocyte NEC,hsa-miR-155,1,21512,Kit B,Monocyte,+,-,+
+3/17/17,A1: Monocytes,hsa-miR-155,69,19981,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,hsa-miR-155,56,21560,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,hsa-miR-155,55,18808,Kit B,Monocytes,+,+,+
+3/17/17,A2: Neutrophils,hsa-miR-155,144,20838,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,hsa-miR-155,141,20484,Kit B,Neutrophils,+,+,+
+3/17/17,C: NTC,hsa-miR-223,0,20248,Kit B,N/A,-,+,+
+3/17/17,C: NTC,hsa-miR-223,1,20878,Kit B,N/A,-,+,+
+3/17/17,B2: Neutrophil NEC,hsa-miR-223,8,17272,Kit B,Neutrophil, +, -,+
+3/17/17,B2: Neutrophil NEC,hsa-miR-223,1,21419,Kit B,Neutrophil, +, -,+
+3/17/17,B1: Monocyte NEC,hsa-miR-223,33,17918,Kit B,Monocyte,+,-,+
+3/17/17,B1: Monocyte NEC,hsa-miR-223,8,22300,Kit B,Monocyte,+,-,+
+3/17/17,A1: Monocytes,hsa-miR-223,6355,14307,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,hsa-miR-223,6264,14763,Kit B,Monocytes,+,+,+
+3/17/17,A1: Monocytes,hsa-miR-223,5668,13284,Kit B,Monocytes,+,+,+
+3/17/17,A2: Neutrophils,hsa-miR-223,20960,0,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,hsa-miR-223,21110,0,Kit B,Neutrophils,+,+,+
+3/17/17,A2: Neutrophils,hsa-miR-223,21536,0,Kit B,Neutrophils,+,+,+
+10/5/17,THP-1_10042017 (C)_NTC,cel-miR-238,9,18301,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (C)_NTC,cel-miR-238,19,17277,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (B)_NEC,cel-miR-238,9,18927,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,cel-miR-238,8,19482,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,cel-miR-238,8,17985,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (A),cel-miR-238,169,19040,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),cel-miR-238,115,18672,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),cel-miR-238,141,19381,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (C)_NTC,cel-miR-39,3,14861,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (C)_NTC,cel-miR-39,1,18166,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (B)_NEC,cel-miR-39,4,19177,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,cel-miR-39,1,19537,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,cel-miR-39,1,17465,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (A),cel-miR-39,7,16904,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),cel-miR-39,5,18830,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),cel-miR-39,1,19079,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (C)_NTC,hsa-miR-155,4,19763,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (C)_NTC,hsa-miR-155,4,16500,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (B)_NEC,hsa-miR-155,2,20597,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,hsa-miR-155,0,20385,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,hsa-miR-155,2,19253,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (A),hsa-miR-155,16430,3907,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),hsa-miR-155,15905,3785,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),hsa-miR-155,924,345,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (C)_NTC,hsa-miR-223,1,21013,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (C)_NTC,hsa-miR-223,6,9151,Kit B,THP-1,-,+,-
+10/5/17,THP-1_10042017 (B)_NEC,hsa-miR-223,0,20102,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,hsa-miR-223,0,20944,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (B)_NEC,hsa-miR-223,2,21584,Kit B,THP-1,+,-,-
+10/5/17,THP-1_10042017 (A),hsa-miR-223,18726,1664,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),hsa-miR-223,18337,1686,Kit B,THP-1,+,+,-
+10/5/17,THP-1_10042017 (A),hsa-miR-223,17454,1542,Kit B,THP-1,+,+,-

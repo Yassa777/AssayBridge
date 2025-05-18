@@ -6,7 +6,6 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
 }
 
 datasource db {
@@ -16,7 +15,7 @@ datasource db {
 
 model Batch {
   id                String      @id @default(uuid())
-  label             String
+  label             String      @unique
   status            QCStatus    @default(PENDING)
   createdAt         DateTime    @default(now())
   ddpcrRuns         DDPCRRun[]
@@ -27,7 +26,7 @@ model Batch {
 
 model DDPCRRun {
   id              String      @id @default(uuid())
-  batchId         String      @unique
+  batchId         String
   sampleLabel     String
   target          String
   kit             String
