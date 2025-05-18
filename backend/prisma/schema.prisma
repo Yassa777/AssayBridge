@@ -27,7 +27,7 @@ model Batch {
 
 model DDPCRRun {
   id              String      @id @default(uuid())
-  batchId         String
+  batchId         String      @unique
   sampleLabel     String
   target          String
   kit             String
@@ -47,7 +47,7 @@ model DDPCRRun {
 
 model SterilityResult {
   id              String      @id @default(uuid())
-  batchId         String
+  batchId         String      @unique
   method          SterilityMethod
   media           SterilityMedia
   incubationHours Int
