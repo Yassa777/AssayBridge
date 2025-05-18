@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Batch {
+  id                String      @id @default(uuid())
+  label             String
+  status            QCStatus    @default(PENDING)
+  createdAt         DateTime    @default(now())
+  ddpcrRuns         DDPCRRun[]
+  sterilityResult   SterilityResult?
+  summaryMarkdown   String?
+  summarisedAt      DateTime?
+}
+
+model DDPCRRun {
+  id              String      @id @default(uuid())
+  batchId         String
+  sampleLabel     String
+  target          String
+  kit             String
+  sampleType      SampleType
+  templateUsed    Boolean
+  enzymeAdded     Boolean
+  spikeIn         String?
+  positives       Int
+  negatives       Int
+  totalDroplets   Int
+  copiesPerUl     Float
+  pass            Boolean
+  runAt           DateTime
+
+  batch           Batch       @relation(fields: [batchId], references: [id])
+}
+
+model SterilityResult {
+  id              String      @id @default(uuid())
+  batchId         String
+  method          SterilityMethod
+  media           SterilityMedia
+  incubationHours Int
+  outcome         SterilityOutcome
+  observedAt      DateTime
+
+  batch           Batch       @relation(fields: [batchId], references: [id])
+}
+
+enum QCStatus {
+  PENDING
+  PASS
+  FAIL
+}
+
+enum SampleType {
+  SYNTHETIC
+  PATIENT
+  QC_CTRL
+}
+
+enum SterilityMethod {
+  DIRECT_INOCULATION
+  MEMBRANE_FILTRATION
+}
+
+enum SterilityMedia {
+  FTM
+  SCDM
+}
+
+enum SterilityOutcome {
+  PASS
+  CONTAMINATED
+}

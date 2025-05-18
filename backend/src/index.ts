@@ -1,42 +1,46 @@
 import { ApolloServer } from '@apollo/server';
-import { expressMiddleware } from '@as-integrations/express5';
+import { fastifyApolloHandler } from '@as-integrations/fastify';
 import { ApolloServerPluginDrainHttpServer } from '@apollo/server/plugin/drainHttpServer';
-import express from 'express';
-import http from 'http';
-import cors from 'cors';
-import { json } from 'body-parser';
+import Fastify from 'fastify';
+import cors from '@fastify/cors';
 import { typeDefs } from './schema';
 import { resolvers } from './resolvers';
 
 async function startApolloServer() {
-  // Express app
-  const app = express();
+  // Create Fastify app
+  const app = Fastify();
   
-  // Create HTTP server
-  const httpServer = http.createServer(app);
+  // Register CORS
+  await app.register(cors, {
+    origin: true // Enable CORS for all origins
+  });
 
   // Create Apollo Server
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
+    plugins: [ApolloServerPluginDrainHttpServer({ httpServer: app.server })],
   });
 
   // Start the server
   await server.start();
 
-  // Apply middleware
-  app.use(
-    '/graphql',
-    cors(),
-    json(),
-    expressMiddleware(server),
-  );
+  // Register Apollo handler
+  app.route({
+    url: '/graphql',
+    method: ['POST', 'OPTIONS'],
+    handler: fastifyApolloHandler(server)
+  });
 
   // Start listening
-  const PORT = process.env.PORT || 4000;
-  await new Promise<void>((resolve) => httpServer.listen({ port: PORT }, resolve));
-  console.log(`🚀 Server ready at http://localhost:${PORT}/graphql`);
+  const PORT = parseInt(process.env.PORT || '4000', 10);
+  try {
+    await app.listen({ port: PORT });
+    console.log(`🚀 Server ready at http://localhost:${PORT}/graphql`);
+  } catch (err) {
+    console.error('Error starting server:', err);
+    process.exit(1);
+  }
 }
 
 startApolloServer().catch((err) => {
