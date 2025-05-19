@@ -1,10 +1,10 @@
-import prisma from '../lib/prisma';
+import prisma from '../lib/prisma.js';
 import { openai } from '../openai.js';
 
 export const resolvers = {
-  query: {
+  Query: {
     batch: (_: any, { id }: { id: string }) =>
-      prisma.batch.findUnique({ where: { id }, include: { ddpcrRuns: true } }),
+      prisma.batch.findUnique({ where: { label: id }, include: { ddpcrRuns: true } }),
 
     batches: (_: any, { limit }: { limit: number }) =>
       prisma.batch.findMany({
@@ -14,7 +14,7 @@ export const resolvers = {
       }),
   },
 
-  mutation: {
+  Mutation: {
     summariseBatch: async (_: any, { batchId }: { batchId: string }) => {
       const batch = await prisma.batch.findUnique({
         where: { id: batchId },
@@ -29,7 +29,7 @@ batch label: ${batch.label}
 runs:
 ${batch.ddpcrRuns
   .map(
-    (r) =>
+    (r: any) =>
       `sample ${r.sampleLabel}, target ${r.target}, copies/µl ${r.copiesPerUl.toFixed(
         1,
       )}, pass ${r.pass}`,
@@ -47,14 +47,14 @@ ${batch.ddpcrRuns
         where: { id: batchId },
         data: {
           summaryMarkdown: md,
-          summarisedAt: new Date(),
+          summarisedAt: new Date().toISOString(),
         },
         include: { ddpcrRuns: true },
       });
     },
   },
 
-  batch: {
+  Batch: {
     ddpcrRuns: (parent: any) =>
       prisma.dDPCRRun.findMany({ where: { batchId: parent.id } }),
   },

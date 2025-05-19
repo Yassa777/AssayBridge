@@ -1,6 +1,5 @@
 import gql from 'graphql-tag';
-
-export const typeDefs = gql`
+export const typeDefs = gql `
   enum QCStatus { PENDING PASS FAIL }
   enum SampleType { SYNTHETIC PATIENT QC_CTRL }
 

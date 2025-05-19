@@ -2,7 +2,7 @@
 import { FastifyPluginAsync } from 'fastify'
 import fp from 'fastify-plugin'
 import csv from 'csv-parser'
-import prisma from '../lib/prisma'
+import prisma from '../lib/prisma.js'
 import fastifyMultipart, { MultipartFile } from '@fastify/multipart'
 
 const POTENCY_LIMIT = 100    // copies/µl
