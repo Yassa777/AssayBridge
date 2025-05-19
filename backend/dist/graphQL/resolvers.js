@@ -12,7 +12,7 @@ export const resolvers = {
     Mutation: {
         summariseBatch: async (_, { batchId }) => {
             const batch = await prisma.batch.findUnique({
-                where: { id: batchId },
+                where: { label: batchId },
                 include: { ddpcrRuns: true },
             });
             if (!batch)
@@ -32,7 +32,7 @@ ${batch.ddpcrRuns
             });
             const md = completion.choices[0].message.content ?? 'n/a';
             return prisma.batch.update({
-                where: { id: batchId },
+                where: { id: batch.id },
                 data: {
                     summaryMarkdown: md,
                     summarisedAt: new Date().toISOString(),

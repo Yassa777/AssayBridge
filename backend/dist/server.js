@@ -14,7 +14,8 @@ async function main() {
         methods: ['GET', 'POST', 'PUT', 'DELETE']
     });
     // register routes
-    await app.register(ddpcrRoutes, { prefix: '/api/ddpcr' });
+    // await app.register(ddpcrRoutes, { prefix: '/api/ddpcr' }); // Commented out prefixed version
+    await app.register(ddpcrRoutes); // Registering without prefix
     const apollo = new ApolloServer({ typeDefs, resolvers });
     await apollo.start();
     await app.register(fastifyApollo(apollo), { prefix: '/graphql' });
