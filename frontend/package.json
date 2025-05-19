@@ -12,6 +12,7 @@
   "dependencies": {
     "@apollo/client": "^3.8.10",
     "@tanstack/react-query": "^5.20.5",
+    "@tanstack/react-table": "^8.21.3",
     "autoprefixer": "^10.4.17",
     "graphql": "^16.8.1",
     "postcss": "^8.4.35",
