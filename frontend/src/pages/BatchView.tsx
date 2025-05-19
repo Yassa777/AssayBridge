@@ -1,7 +1,6 @@
 // src/pages/BatchView.tsx
 import { useQuery, useMutation } from '@apollo/client';
 import { GET_BATCH, SUMMARISE_BATCH } from '../graphql/ops.ts';
-import { Table } from '@tanstack/react-table';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
 
 interface Props { batchId: string }
@@ -9,7 +8,7 @@ interface Props { batchId: string }
 export default function BatchView({ batchId }: Props) {
   const { data, loading } = useQuery(GET_BATCH, { variables: { id: batchId } });
   const [summarise, { loading: summarising }] = useMutation(SUMMARISE_BATCH, {
-    variables: { id: batchId },
+    variables: { batchId: batchId },
     refetchQueries: [GET_BATCH],
   });
 
@@ -28,6 +27,14 @@ export default function BatchView({ batchId }: Props) {
           {summarising ? 'summarising…' : 'generate summary'}
         </button>
       </div>
+
+      {/* markdown summary - MOVED HERE */}
+      {batch.summaryMarkdown && (
+        <article className="prose max-w-none my-4 p-4 border rounded-md bg-gray-50">
+          <h2 className="text-xl font-semibold mb-2">Summary</h2>
+          <pre className="whitespace-pre-wrap font-sans text-sm">{batch.summaryMarkdown}</pre>
+        </article>
+      )}
 
       {/* table */}
       <div className="overflow-x-auto">
@@ -66,14 +73,6 @@ export default function BatchView({ batchId }: Props) {
           </BarChart>
         </ResponsiveContainer>
       </div>
-
-      {/* markdown summary */}
-      {batch.summaryMarkdown && (
-        <article className="prose max-w-none">
-          <h2>summary</h2>
-          <pre className="whitespace-pre-wrap">{batch.summaryMarkdown}</pre>
-        </article>
-      )}
     </div>
   );
 }

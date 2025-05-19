@@ -35,4 +35,15 @@ export const SUMMARISE_BATCH = gql`
       summarisedAt
     }
   }
+`;
+
+export const GET_BATCHES = gql`
+  query GetBatches($limit: Int) {
+    batches(limit: $limit) {
+      id
+      label
+      createdAt # Optional: for sorting or display
+      status # Optional: for display
+    }
+  }
 `; 

@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import { BrowserRouter, Routes, Route, Navigate, useParams, Link } from 'react-router-dom';
+import BatchView from './pages/BatchView';
+import UploadPage from './pages/UploadPage';
+import BatchListPage from './pages/BatchListPage';
 
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <BrowserRouter>
+      <nav className="p-4 bg-gray-100 shadow-md">
+        <ul className="flex space-x-6 items-center max-w-4xl mx-auto">
+          <li><Link to="/" className="text-lg font-semibold text-indigo-700 hover:text-indigo-900">All Batches</Link></li>
+          <li><Link to="/upload" className="text-lg font-semibold text-indigo-700 hover:text-indigo-900">Upload Data</Link></li>
+        </ul>
+      </nav>
+      <div className="p-4 max-w-4xl mx-auto">
+        <Routes>
+          <Route path="/batch/:id" element={<BatchRoute />} />
+          <Route path="/upload" element={<UploadPage />} />
+          <Route path="/" element={<BatchListPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+function BatchRoute() {
+  const { id } = useParams();
+  return <BatchView batchId={id!} />;
+}
+
