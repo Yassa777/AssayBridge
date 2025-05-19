@@ -19,8 +19,9 @@
     "dotenv": "^16.5.0",
     "fastify": "^4.29.1",
     "graphql": "^16.11.0",
+    "graphql-tag": "^2.12.6",
     "nodemailer": "^7.0.3",
-    "openai": "^4.98.0",
+    "openai": "^4.100.0",
     "pg": "^8.16.0",
     "prisma": "^6.8.2"
   }
