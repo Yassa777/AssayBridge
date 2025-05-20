@@ -1,11 +1,11 @@
 // src/lib/apollo.ts
 import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 
-const httpLink = new HttpLink({
-  uri: 'http://localhost:3000/graphql', // Your backend GraphQL endpoint
-});
 
 export const apolloClient = new ApolloClient({
-  link: httpLink,
-  cache: new InMemoryCache(),
-});
+    link: new HttpLink({
+      uri: import.meta.env.VITE_GRAPHQL_URL,   // use env var, not hard-coded string
+    }),
+    cache: new InMemoryCache(),
+  });
+  
