@@ -6,13 +6,19 @@ import { ApolloServer } from '@apollo/server';
 import fastifyApollo from '@as-integrations/fastify';
 import { typeDefs } from './graphQL/schema.js';
 import { resolvers } from './graphQL/resolvers.js';
+import dotenv from 'dotenv';
+
+dotenv.config(); // Load environment variables from .env file
 
 const app = Fastify({ logger: true });
+
+const PORT = parseInt(process.env.PORT || '3000', 10);
+const HOST = process.env.HOST || '0.0.0.0'; // Render typically uses 0.0.0.0
 
 async function main() {
   // enable CORS
   await app.register(cors, { 
-    origin: '*',
+    origin: process.env.CORS_ORIGIN || '*', // Make CORS origin configurable
     methods: ['GET', 'POST', 'PUT', 'DELETE']
   });
 
@@ -25,9 +31,9 @@ async function main() {
   await app.register(fastifyApollo(apollo), { prefix: '/graphql' });
 
   try {
-    await app.listen({ port: 3000 });
-    app.log.info(`🚀 Server running at http://localhost:3000`);
-    app.log.info(`🚀 GraphQL ready at http://localhost:3000/graphql`);
+    await app.listen({ port: PORT, host: HOST });
+    app.log.info(`🚀 Server running at http://${HOST === '0.0.0.0' ? 'localhost' : HOST}:${PORT}`);
+    app.log.info(`🚀 GraphQL ready at http://${HOST === '0.0.0.0' ? 'localhost' : HOST}:${PORT}/graphql`);
   } catch (err) {
     app.log.error(err);
     process.exit(1);
