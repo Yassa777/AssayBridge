@@ -38,9 +38,11 @@ export default function UploadPage() {
     const formData = new FormData();
     formData.append('file', file);
 
+    const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
+
     try {
       const response = await fetch(
-        `http://localhost:3000/upload/ddpcr?batch=${encodeURIComponent(batchLabel.trim())}`,
+        `${apiBaseUrl}/upload/ddpcr?batch=${encodeURIComponent(batchLabel.trim())}`,
         {
           method: 'POST',
           body: formData,
